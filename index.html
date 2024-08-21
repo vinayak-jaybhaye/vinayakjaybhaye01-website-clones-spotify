@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="16x16" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utitlity.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left ">
+            <div class="close">
+                <img src="assets/close.svg" class="invert">
+            </div>
+            <div class="home bg-grey round-br">
+                 <span>
+                     <img src="assets/logo.svg" class="logo invert">
+                 </span>
+                <ul>
+                    <li><img src="assets/home.svg" class="Home invert">Home</li>
+                    <li><img src="assets/search.svg"  class="search invert">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey round-br">
+                <div class="heading">
+                    <img src="assets/playlist.svg" alt="playlist" class="invert">
+                    <h2>
+                        Your Library
+                    </h2>
+                  
+                </div>
+                <div class="songlst">
+                    <ul>
+                       
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right bg-grey round-br">
+            <div class="header round-br">
+                <div class="nav">
+                    <div class="hamburger ">
+                        <img src="assets/hamburger.svg" class="invert">
+                    </div>
+                     <img src="assets/navleft.svg"  class="invert">
+                     <img src="assets/navright.svg" class="invert">
+                </div>
+
+                <div class="buttons">
+                     <button class="signupbtn">Sign up</button>
+                     <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+
+                <div class="cardContainer">
+
+                   
+
+                </div>
+
+                <div class="playbar">
+                    <div class="songInfo">
+                        Play Song
+                    </div>
+                    <div class="songbtn">
+                        <img src="assets/playbar_prev.svg" class="invert "  id="previousSong" >
+                        <img src="assets/playbar_play.svg" class="invert"  id="play_pause" >
+                        <img src="assets/playbar_next.svg" class="invert"  id="nextSong" >
+                    </div>
+                    <div class="songtime">
+                        <div class="duration">
+                            00:00/00:00
+                        </div>
+                        <div class="volume">
+                            <img src="assets/volume.svg" class="invert" id="volume">
+                            <div >
+                                <input type="range" name="volume" id="volumeseekbar">
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="seekbar">
+                        <div  class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+        
