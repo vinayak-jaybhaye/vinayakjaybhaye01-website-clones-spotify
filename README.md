@@ -20,7 +20,6 @@ This repository contains a clone of the Spotify website, built using HTML, CSS, 
 ## Live Demo
 
 Check out the live demo here: [Live Demo](#)  
-*(Replace `#` with the actual link when available.)*
 
 ## Installation
 
